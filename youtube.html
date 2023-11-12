@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Youtube.com Clone</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/video.css">
+  <link rel="stylesheet" href="styles/sidebar.css">
+  <link rel="stylesheet" href="styles/normal.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="left-section">
+      <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="">
+      <img class="youtube-logo" src="icons/youtube-logo.svg" alt="">
+    </div>
+
+    <div class="middle-section">
+      <input class="search-bar" type="text" placeholder="Search">
+      <button class="search-button">
+        <img class="search-icon" src="icons/search.svg" alt="">
+        <div class="tooltip">Search</div>
+      </button>
+      <button class="voice-search-button">
+        <img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="">
+        <div class="tooltip">Search with your voice</div>
+      </button>
+    </div>
+
+    <div class="right-section">
+      <div class="upload-icon-container">
+        <img class="upload-icon" src="icons/upload.svg" alt="">
+        <div class="tooltip">Create</div>
+      </div>
+      <div class="youtube-app-icon-container">
+        <img class="youtube-app-icon" src="icons/youtube-apps.svg" alt="">
+        <div class="tooltip">YouTube apps</div>
+      </div>
+
+      <div class="notification-icon-container">
+        <div class="notification-icon-container">
+          <img class="notification-icon" src="icons/notifications.svg" alt="">
+          <div class="tooltip">Notifications</div>
+        </div>
+        <div class="notification-count">3</div>
+      </div>
+      <a href="#"><img class="current-users-picture" src="channel-pictures/fahad.jpg" alt=""></a>
+
+    </div>
+  </header>
+
+  <nav class="sidebar">
+    <div class="sidebar-link">
+      <img src="icons/home.svg" alt="">
+      <div>Home</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/explore.svg" alt="">
+      <div>Explore</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/subscriptions.svg" alt="">
+      <div>Subscriptions</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/originals.svg" alt="">
+      <div>Originals</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/youtube-music.svg" alt="">
+      <div>Youtube Music</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/library.svg" alt="">
+      <div>Library</div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="video-grid">
+      <section class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY" target="_blank"><img class="thumbnail"
+              src="thumbnails/thumbnail-1.webp">
+          </a>
+
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <div class="profile-picture-container">
+              <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY" target="_blank"><img class="profile-picture"
+                  src="channel-pictures/channel-1.jpeg" alt="">
+              </a>
+
+              <div class="channel-tooltip">
+                <img src="channel-pictures/channel-1.jpeg" alt="">
+                <div class="hover-text">
+                  <div class="name">Marques Brownlee</div>
+                  <div class="subscribers">15M subscribers</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY" target="_blank">
+              <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+              <p class="video-author">Marques Brownlee</p>
+            </a>
+
+            <p class="video-status">3.4M views &#183; 6 months ago</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=2MHIi4ZqhVc&t=5s" target="_blank">
+            <img class="thumbnail" src="thumbnails/Thumbnails-2.PNG">
+          </a>
+          <div class="video-time">38:55</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <div class="profile-picture-container">
+              <a href="https://www.youtube.com/@sheikhahmadullahofficial" target="_blank">
+                <img class="profile-picture" src="channel-pictures/shaikh-Ahmadullah.jpg" alt="">
+              </a>
+              <div class="channel-tooltip">
+                <img src="channel-pictures/shaikh-Ahmadullah.jpg" alt="">
+                <div class="hover-text">
+                  <div class="name">Ahmadullah</div>
+                  <div class="subscribers">2.27M subscribers</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <p class="video-title"><a href="https://www.youtube.com/watch?v=2MHIi4ZqhVc&t=5s" target="_blank">যে পাপের শাস্তি আখেরাতের পাশাপাশি দুনিয়াতেও ভোগ করতে হবে</a></p>
+            <p class="video-author">
+              Ahmadullah
+              </p>
+            <p class="video-status">30K views &#183; 6 days ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=8YMl24t7cQk" target="_blank">
+            <img class="thumbnail" src="thumbnails/Thumbnails-4.PNG">
+          </a>
+          <div class="video-time">57:34</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <div class="profile-picture-container">
+              <a href="https://www.youtube.com/@DrMizanurRahmanAzhari" target="_blank">
+                <img class="profile-picture" src="channel-pictures/mizanur-rahman-azhari.jpg" alt="">
+              </a>
+              <div class="channel-tooltip">
+                <img src="channel-pictures/mizanur-rahman-azhari.jpg" alt="">
+                <div class="hover-text">
+                  <div class="name">Mizanur Rahman</div>
+                  <div class="subscribers">2.47M subscribers</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="video-info">
+            <p class="video-title">The Significance of Dream in Islam | Mizanur Rahman Azhari</p>
+            <p class="video-author">Mizanur Rahman Azhari</p>
+            <p class="video-status">9.1M views &#183; 2 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=86CQq3pKSUw" target="_blank">
+            <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+          </a>
+          <div class="video-time">11:17</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <div class="hover-style">
+              <a href="#">
+                <img class="profile-picture" src="channel-pictures/channel-5.jpeg" alt="">
+              </a>
+              <div class="hover-style-child">
+                <a href="#">
+                  <img src="channel-pictures/channel-5.jpeg" alt="">
+                </a>
+
+                <div class="text">
+                  <div class="text-name">CS Dojo</div>
+                  <div class="subscribers-text">1.92M subscribers</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Kadane's Algorithm to Maximum Sum Subarray</p>
+            <p class="video-author">CS Dojo</p>
+            <p class="video-status">519K views &#183; 5 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=2MHIi4ZqhVc&t=5s" target="_blank">
+            <img class="thumbnail" src="thumbnails/Thumbnails-5.PNG">
+          </a>
+          <div class="video-time">3:22</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <div class="profile-picture-container">
+              <a href="https://www.youtube.com/@sheikhahmadullahofficial" target="_blank">
+                <img class="profile-picture" src="channel-pictures/shaikh-Ahmadullah.jpg" alt="">
+              </a>
+              <div class="channel-tooltip">
+                <img src="channel-pictures/shaikh-Ahmadullah.jpg" alt="">
+                <div class="hover-text">
+                  <div class="name">Ahmadullah</div>
+                  <div class="subscribers">2.27M subscribers</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <p class="video-title"><a href="https://www.youtube.com/watch?v=iRxOSy7ooMc" target="_blank">সহবাসের পর মেয়েদের জন্য গোসল না করে গৃহস্থলী কাজ ও শিশুকে দুধ পান করানোর বিধান -শায়খ আহমাদুল্লাহ</a></p>
+            <p class="video-author">
+              Ahmadullah
+              </p>
+            <p class="video-status">7.5M views &#183; 5 days ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=fNVa1qMbF9Y" target="_blank">
+            <img class="thumbnail" src="thumbnails/thumbnail-7.webp">
+          </a>
+          <div class="video-time">11:13</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-7.jpeg" alt="">
+          </div>
+          <div class="video-info">
+            <p class="video-title">Why Planes Don't Fly Over Tibet</p>
+            <p class="video-author">RealLifeLore</p>
+            <p class="video-status">6.6M views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=ixmxOlcrlUc" target="_blank">
+            <img class="thumbnail" src="thumbnails/thumbnail-8.webp">
+          </a>
+          <div class="video-time">7:12</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-8.jpeg" alt="">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Inside The World's Biggest Passenger Plane</p>
+            <p class="video-author">Tech Vision</p>
+            <p class="video-status">3.7M views &#183; 10 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=ZZVEtW3j9ug" target="_blank">
+            <img class="thumbnail" src="thumbnails/Thumbnails-9.PNG">
+          </a>
+          <div class="video-time">45:23</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@sheikhahmadullahofficial/featured">
+              <img class="profile-picture" src="channel-pictures/shaikh-Ahmadullah.jpg" alt="">
+            </a>
+          </div>
+          <div class="video-info">
+            <p class="video-title">ওজুতে যেভুলগুলো হয়তো আপনারও হয়-শাইখ আহমাদুল্লাহ</p>
+            <p class="video-author">
+              Ahmadullah
+              </p>
+            <p class="video-status">9.8M views  &#183; 6 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=R2vXbFp5C9o" target="_blank">
+            <img class="thumbnail" src="thumbnails/thumbnail-10.webp">
+          </a>
+          <div class="video-time">7:53</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-10.jpeg" alt="">
+          </div>
+          <div class="video-info">
+            <p class="video-title">How The World's Largest Cruise Ship Makes 30,000 Meals Every Day</p>
+            <p class="video-author">Business Insider</p>
+            <p class="video-status">14M views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=0nZuYyXET3s" target="_blank">
+            <img class="thumbnail" src="thumbnails/thumbnail-11.webp">
+          </a>
+          <div class="video-time">4:10</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-11.jpeg" alt="">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Dubai's Crazy Underwater Train and Other Things #Only in Dubai</p>
+            <p class="video-author">Destination Tips</p>
+            <p class="video-status">3M views &#183; 5 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=9iMGFqMmUFs" target="_blank">
+            <img class="thumbnail" src="thumbnails/thumbnail-12.webp">
+          </a>
+          <div class="video-time">4:51</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-12.jpeg" alt="">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              What would happen if you didn't drink water? - Mia Nacamulli</p>
+            <p class="video-author">TED-Ed
+            </p>
+            <p class="video-status">12M views &#183; 5 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=ywHoaKVf0E4" target="_blank">
+            <img class="thumbnail" src="thumbnails/Thumbnails-12.PNG">
+          </a>
+          <div class="video-time">48:09</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <div class="profile-picture-container">
+              <a href="https://www.youtube.com/@DrMizanurRahmanAzhari" target="_blank">
+                <img class="profile-picture" src="channel-pictures/mizanur-rahman-azhari.jpg" alt="">
+              </a>
+              <div class="channel-tooltip">
+                <img src="channel-pictures/mizanur-rahman-azhari.jpg" alt="">
+                <div class="hover-text">
+                  <div class="name">Mizanur Rahman</div>
+                  <div class="subscribers">2.47M subscribers</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="video-info">
+            <p class="video-title">আদম (আ.) এর জীবনী এবং আমাদের শিক্ষা | Life of Prophet Adam (Pbuh) | মিজানুর রহমান আজহারি</p>
+            <p class="video-author">Mizanur Rahman Azhari</p>
+            <p class="video-status">2.1M views &#183; 2 years ago</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+</body>
+
+</html>
